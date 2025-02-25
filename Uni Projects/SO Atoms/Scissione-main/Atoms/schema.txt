@@ -1,0 +1,106 @@
+Processi necessari:
+ - Master: Gestisce la simulazione e crea delle statistiche sulla reazione.
+	   le statistiche vengono stampate ogni secondo, ed il processo master
+           dovrà inoltre:
+	    - creare N_ATOMI_INIT processi atomo
+	    - creare il processo attivatore
+	    - creare il processo alimentatore
+	    - avviare la simulazione
+ - Atomo: si scindono creando altri atomi, ogni scissione genera energia.
+          è dotato di un numero atomico tra 1 ed N_ATOMI_MAX (privato). Dopodichè
+ 	  effettua una fork di scissione, in cui:
+	   - la somma dei numeri atomici fra padre e figlio deve essere uguale
+             a quella del padre prima della scissione.
+   	- l'energia rilasciata durante il processo di scissione è calcolata grazie
+             alla seguente formula: E(n1, n2) = N1*N2 - max(N1, N2).
+	   - L'atomo può scindersi solo quando ha il via dell'attivatore (semaforo).
+	   - L'atomo che viene scisso ma è già con n atomico = a N_ATOMI_MIN termina
+    	     immediatamente e diventa una scoria.
+ - Attivatore: attiva la reazione. Ogni STEP_ATTIVATORE nanosecondi, l'attivatore attiva
+	       uno o più atomi
+ - Alimentazione: aggiunge nuovi atomi alla reazione. Ne aggiunge N_NUOVI_ATOMI ogni
+   		  STEP_ALIMENTATORE nanosecondi
+ - Inibitore: Limita la quantità di energia prodotta in due modi:
+	      - assorbe parte dell'energia prodotta da una scissione.
+	      - evita la scissione di un determinato numero di atomi.
+
+Possibili stati della terminazione del processo master:
+ - timeout: Raggiunta la SIM_DURATION massima stabilita
+ - explode: Energia liberata maggiore del ENERGY_EXPLODE_THRESHOLD
+ - blackout: Energia prelevata per scindere gli atomi minore dell'energia prodotta 
+	     dalla scissione più quella disponibile di partenza.
+ - meltdown: errore in una qualsiasi delle fork dei processi atomo.
+NOTA BENE: Fare una configurazione di esempio per ognuno dei casi sopra descritti.
+
+Deve essere definito inoltre un file di configurazione, dove vengono definite tutte 
+le costanti sopra citate ed importate nei processi vari.
+
+Come deve essere composta la stampa della simulazione ogni secondo:
+ - Numero di attivazioni totale e relativo all'ultimo secondo
+ - Numero di scissioni totale e relativo all'ultimo secondo
+ - Quantità di energia prodotta totale e nell'ultimo secondo
+ - Quantità di energia consumata totale e nell'ultimo secondo
+ - Quantità di scorie prodotte totale e nell'ultimo secondo
+ - Quantità di energia inibita totale e nell'ultimo secondo
+ - Log delle inibizioni nell'ultimo secondo
+
+Requisiti del processo:
+ - No attesa attiva (no interpellare continuamente il programma)
+ - Utilizzare:
+    - Memoria condivisa
+    - Semafori
+    - O pipe o code di messaggi
+ - Ogni processo deve essere lanciato da execve()
+ - Deve essere compilato tramite l'utility "make"
+ - Massimizzare il grado di concorrenza fra processi
+ - Deallocare tutti gli strumenti utilizzati al termine della simulazione
+ - Essere compilato tramite almeno le seguenti opzioni di compilazione:
+    gcc -Wvla -Wextra -Werror
+ - Deve funzionare su una macchina multiprocessore
+
+Inserire la macro _GNU_SOURCE o compilare con flag -D_GNU_SOURCE
+
+
+
+COSE ANCORA DA FARE IN PRATICA:
+	MASTER.C;
+		- Gestire la simulazione, ovvero:
+			- stampa lo stato della simulazione ogni secondo
+			- stampa le statistiche (esempio: N° di atomi non scorie: x
+														 N° di scissioni prodotte: x
+														 N° di energia totale: x
+											) ogni secondo
+			- preleva la quantità ENERGY_DEMAND dall'energia ogni secondo
+			IMPORTANTE: Aggiungere un semaforo per attivare l'attivatore, l'alimentatore e la scissione degli atomi. Questo deve avvenire in contemporanea per consentire la perfetta concorrenza nel contendersi la cpu equamente
+			- Aggiungere le varie terminazioni (timeout, explode, blackout, meltdown)
+
+	ATOMO.C;
+		In teoria è tutto fatto, controllare se non va perchè c'è qualcosa di sbagliato o altro
+
+	ATTIVATORE.C;
+		- 
+
+	ALIMENTATORE.C;
+		-
+
+	CLEAR.C;
+		- 
+
+
+COME PROCEDERE:
+Creare una lista (che può essere vista come memoria condivisa o coda di messaggi)
+che contenga tutti i pid degli atomi non scoria. Servirà in fase di terminazione della simulazione.
+Consiglio: se atomo diventa scoria, necessario togliere il proprio pid dalla lista.
+In fase di terminazione, il master dovrà terminare tutti i figli, ovvero gli atomi, l'attivatore e 
+l'alimentatore.
+Per la stampa delle statistiche ogni secondo, il master dovrà, una volta creati tutti i figli, non
+mettersi in attesa di essi, ma bensì entrare in un ciclo in cui le condizioni d'uscita sono:
+ - Il raggiungimento del timeout posto come macro
+ - La ricezione di un segnale di Meltdown, Explode o Blackout, inviato rispettivamente dalle varie fork o
+   dagli atomi
+Parametri da stampare per la simulazione:
+ - N° atomi creati (compresi quelli iniziali)
+ - N° scorie prodotte
+ - Energia attuale
+ - N° secondi passati dall'avvio della simulazione
+ - N° secondi mancanti al timeout
