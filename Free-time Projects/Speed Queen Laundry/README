@@ -1,0 +1,5 @@
+During 2023 spring-summer, I developed a web infrastructure for my parents' laundry, composed of a web domain
+and a web hosting. I developed the html, css (using Bootstrap) and javascript on my own, and I also used a phpmyadmin
+database, which allowed me to create a log system, as well as making the website dynamically editable.
+
+The website: https://sq-frejus.it/
