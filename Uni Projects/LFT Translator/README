@@ -1,0 +1,5 @@
+One of the first project was during second year, for the subject LFT (Linguaggi formali e traduttori).
+The project was about build a working translator, which from a descripted language takes in input a
+script and execute it, translating it first of all in jasmine, and then into java.
+The project isn't just the translator, but all the other java classes are implemented to make the translator work.
+The translator is written in java.

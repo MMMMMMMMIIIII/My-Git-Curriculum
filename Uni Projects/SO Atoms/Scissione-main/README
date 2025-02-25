@@ -1,0 +1,10 @@
+This project is written in C. It consist of a simulation, where we have some initial atoms and we have to split
+them. Splitting atoms produces energy, which is used to split other atoms. We have the master process, that monitor
+the reactions and starts the other process. Then we have the attivatore, which activate the split of a certain
+number of waiting atoms, and the alimentatore adds some atoms to the reaction. The master process prints some
+information every second and the reaction can conclude with 4 status:
+ - Timeout: limit time exceed
+ - Blackout: too much energy required
+ - Explode: too much energy produced
+ - Meltdown: Any one of the executed fork fails
+ This project taught me how to use tools like semaphore, message queues and signals.
