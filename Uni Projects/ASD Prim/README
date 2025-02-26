@@ -1,0 +1,12 @@
+ASD (Algoritmi e Strutture Dati) project introduced me to the concept of temporal complexity, which classify
+algorithms by the order of efficiency. The project is composed by 4 exercises: the first one joins the merge sort
+and the quick sort, two of the most efficient sorting algorithms. The second one is a word prompter, called
+edit distance, which, with a starting sentence, finds out the nearest 5 words in terms of distance. It works like
+the Levenshtein distance, without using substitution (only the insertion and the cancellation). There is the static
+and the dynamic version. The static version consist of simple recursion, returning the value. The dynamic one uses
+a dynamically allocated matrix. These two exercises are written in C, while the last two are coded in java.
+The third one is the class that defines a Priority Queue structure, therefore the push, the pop etc...
+The last one is a simulation of the Prim algorithm, taking as input a file with some departure and arrival places
+and the distance between them (in km). It uses the Priority Queue to store all the nodes, sorting them by increasing
+distance. The program returns the minimum sparring forest, with the sum of the distances in km and the visited nodes
+and the traveled edges.
