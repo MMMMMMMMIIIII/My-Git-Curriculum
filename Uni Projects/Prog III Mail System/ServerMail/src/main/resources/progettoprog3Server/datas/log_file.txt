@@ -1,0 +1,344 @@
+Server spento
+Server in ascolto sulla porta: 9122
+Server spento
+Server in ascolto sulla porta: 9122
+Nuovo client connesso!
+{"operation":"LOGIN","email":"mirco.illengo@gmail.com"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Server spento
+Server in ascolto sulla porta: 9122
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}
+Nuovo client connesso!
+{"operation":"UPDATE","email":"mirco.illengo@gmail.com"}
+{"status":"FAILURE"}

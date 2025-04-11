@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.HBox?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/19.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.progettoprog3client.controllers.OverlayController">
+    <children>
+        <VBox spacing="15.0" AnchorPane.topAnchor="0" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" alignment="CENTER" stylesheets="@style.css">
+
+            <VBox spacing="10" alignment="CENTER">
+                <Label text="A:" style="-fx-font-size: 15px; -fx-font-weight: bold; -fx-text-fill: #2a6594; -fx-padding: 10;"/>
+                <TextField fx:id="toField" maxWidth="350.0" style="-fx-font-size: 14px; -fx-background-color: #f0f4f8; -fx-border-color: #2a6594; -fx-border-radius: 5; -fx-padding: 8;"/>
+            </VBox>
+
+            <VBox spacing="10" alignment="CENTER">
+                <Label text="Oggetto:" style="-fx-font-size: 15px; -fx-font-weight: bold; -fx-text-fill: #2a6594; -fx-padding: 10;"/>
+                <TextField fx:id="subjectField" maxWidth="350.0" style="-fx-font-size: 14px; -fx-background-color: #f0f4f8; -fx-border-color: #2a6594; -fx-border-radius: 5; -fx-padding: 8;"/>
+            </VBox>
+
+            <VBox spacing="10" alignment="CENTER">
+                <Label text="Testo:" style="-fx-font-size: 15px; -fx-font-weight: bold; -fx-text-fill: #2a6594; -fx-padding: 10;"/>
+                <TextArea fx:id="bodyField" prefHeight="200.0" maxWidth="500.0" wrapText="true" style="-fx-font-size: 14px; -fx-background-color: #f0f4f8; -fx-border-color: #2a6594; -fx-border-radius: 5; -fx-padding: 8;"/>
+            </VBox>
+
+            <HBox spacing="15" alignment="CENTER">
+                <Button fx:id="sendButton" text="Invia" onAction="#onSendMailClick" styleClass="button" style="-fx-background-color: #2a6594; -fx-text-fill: white; -fx-font-weight: bold; -fx-cursor: hand; -fx-border-radius: 5; -fx-padding: 10 20; -fx-font-size: 14px;" />
+                <Button fx:id="cancelButton" text="Annulla" onAction="#onCancelClick" styleClass="button" style="-fx-background-color: #f44336; -fx-text-fill: white; -fx-font-weight: bold; -fx-cursor: hand; -fx-border-radius: 5; -fx-padding: 10 20; -fx-font-size: 14px;" />
+            </HBox>
+
+        </VBox>
+    </children>
+</AnchorPane>

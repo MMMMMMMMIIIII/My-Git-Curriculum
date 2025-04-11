@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<?import javafx.scene.shape.Circle?>
+<AnchorPane xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.progettoprog3client.controllers.HomeController">
+   <children>
+      <SplitPane dividerPositions="0.3" stylesheets="@style.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <items>
+            <VBox minWidth="200.0">
+               <children>
+                  <Label style="-fx-font-size: 15px; -fx-font-weight: bold; -fx-text-fill: #2a6594; -fx-padding: 10;" text="Mail ricevute" />
+                  <ListView fx:id="mailList" VBox.vgrow="ALWAYS" />
+               </children>
+            </VBox>
+            <VBox minWidth="300.0">
+               <children>
+                  <Label style="-fx-font-size: 15px; -fx-font-weight: bold; -fx-text-fill: #2a6594; -fx-padding: 10;" text="Contenuto della mail" />
+                  <VBox fx:id="mailContent" spacing="5" style="-fx-padding: 10;" visible="false">
+                     <children>
+                        <Label text="Mittente:" style="-fx-font-size: 17px; -fx-font-weight: bold; -fx-text-fill: #2a6594;" />
+                        <Label fx:id="mittenteLabel" style="-fx-font-size: 17px; -fx-text-fill: #555;" />
+
+                        <Label text="Destinatari:" style="-fx-font-size: 17px; -fx-font-weight: bold; -fx-text-fill: #2a6594;" />
+                        <Label fx:id="destinatariLabel" style="-fx-font-size: 17px; -fx-text-fill: #555;" />
+
+                        <Label text="Oggetto:" style="-fx-font-size: 17px; -fx-font-weight: bold; -fx-text-fill: #2a6594;" />
+                        <Label fx:id="oggettoLabel" style="-fx-font-size: 17px; -fx-text-fill: #555;" />
+
+                        <Label text="Contenuto:" style="-fx-font-size: 17px; -fx-font-weight: bold; -fx-text-fill: #2a6594;" />
+                        <ScrollPane fitToWidth="true" minHeight="150" VBox.vgrow="ALWAYS">
+                           <content>
+                              <TextFlow fx:id="contenutoFlow" />
+                           </content>
+                        </ScrollPane>
+                        <HBox alignment="CENTER" spacing="10">
+                           <Button text="Reply" fx:id="replyButton"/>
+                           <Button text="Reply All" fx:id="replyAllButton"/>
+                           <Button text="Forward" fx:id="forwardButton"/>
+                           <Button fx:id="deleteMail" style="-fx-cursor: hand; -fx-background-color: transparent; -fx-border-color: transparent; -fx-padding: 30px;" visible="false" textAlignment="CENTER" AnchorPane.rightAnchor="20" AnchorPane.bottomAnchor="10">
+                              <graphic>
+                                 <ImageView fx:id="deleteImage" fitHeight="24" fitWidth="24" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                       <Image url="@images/trash-icon.png" />
+                                    </image>
+                                 </ImageView>
+                              </graphic>
+                           </Button>
+                        </HBox>
+                     </children>
+                  </VBox>
+               </children>
+            </VBox>
+         </items>
+      </SplitPane>
+
+      <Button fx:id="newMail" mnemonicParsing="false" onAction="#showOverlay" style="-fx-font-weight: bold; -fx-font-size: 16px; -fx-padding: 10; -fx-cursor: hand;" styleClass="button" text="Nuova Mail" textFill="#2a6594" AnchorPane.bottomAnchor="20" AnchorPane.rightAnchor="20" />
+      <ToggleButton fx:id="statusIndicator" style="-fx-background-color: transparent;" disable="true" AnchorPane.topAnchor="10" AnchorPane.rightAnchor="10">
+         <graphic>
+            <Circle fx:id="statusCircle" radius="8" fill="green" />
+         </graphic>
+      </ToggleButton>
+   </children>
+</AnchorPane>
